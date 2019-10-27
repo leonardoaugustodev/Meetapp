@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
@@ -6,7 +8,6 @@ import 'express-async-errors';
 
 import './database';
 
-require('dotenv').config();
 
 class App {
   constructor() {
