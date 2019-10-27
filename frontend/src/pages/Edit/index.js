@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { updateMeetupRequest } from '../../store/modules/meetup/actions';
 import { Container } from './styles';
 import Datepicker from '../../components/Datepicker';
-import BannerInput from './BannerInput';
+import BannerInput from '~/components/BannerInput';
 
 const schema = Yup.object().shape({
   id: Yup.string(),
