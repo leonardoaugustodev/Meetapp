@@ -26,6 +26,12 @@ $ yarn
 
 - Edit .env file with your configuration.
 
+- Create database
+
+```
+$ yarn sequelize db:create
+```
+
 - Migrate database
 
 ```

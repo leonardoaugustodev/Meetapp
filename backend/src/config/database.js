@@ -1,4 +1,6 @@
 // Configurações de conectividade com o banco de dados postgres
+require('dotenv').config();
+
 module.exports = {
   dialect: 'postgres',
   host: process.env.POSTGRES_HOST,
