@@ -5,7 +5,7 @@ Mobile frontend of Meetapp application.
 ## Getting Started
 
 These instructions are to running this application for development and testing purposes.
-**IMPORTANT**: this application was just tested into Android environment.
+**IMPORTANT**: this application was only tested into Android environment.
 
 ### Prerequisites
 
@@ -22,6 +22,11 @@ $ yarn
 ```
 
 - Configure the address of api into file src/config/api.
+- Create a file name **local.properties** into folder **android/** and specify the location of Android SDK.
+
+```
+sdk.dir = /home/user/Android/Sdk
+```
 
 - Install the application into mobile device:
 

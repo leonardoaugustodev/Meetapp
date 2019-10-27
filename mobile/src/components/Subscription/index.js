@@ -39,7 +39,7 @@ export default function Subscription({data, onCancel}) {
 }
 
 Subscription.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object()),
+  data: PropTypes.objectOf(PropTypes.object),
   onCancel: PropTypes.func,
 };
 

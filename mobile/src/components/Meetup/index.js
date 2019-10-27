@@ -50,7 +50,7 @@ export default function Meetup({data, onSubscribe, confirm}) {
 }
 
 Meetup.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object()),
+  data: PropTypes.objectOf(PropTypes.object),
   onSubscribe: PropTypes.func,
   confirm: PropTypes.bool,
 };

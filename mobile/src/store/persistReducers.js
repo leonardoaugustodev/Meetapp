@@ -6,7 +6,7 @@ export default reducers => {
   const persistedReducer = persistReducer(
     {
       timeout: 0,
-      key: 'meetapp',
+      key: 'meetappData',
       storage: AsyncStorage,
       blacklist: [],
     },
